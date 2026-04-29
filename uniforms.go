@@ -14,7 +14,7 @@ import (
 // TODO: double check, matrices may need to be flattened
 
 func defaultUniformValue(t shaderir.Type) any {
-	switch t.Main{
+	switch t.Main {
 	case shaderir.Bool:
 		return false
 	case shaderir.Int:
@@ -74,7 +74,7 @@ func getVectorFlagIndex(name string) (string, int, bool) {
 
 func parseUniformValue(t shaderir.Type, values map[int]string) any {
 	// TODO: parse Mat2, Mat3, Mat4, Texture, Array, Struct
-	switch t.Main{
+	switch t.Main {
 	case shaderir.Bool:
 		res, err := strconv.ParseBool(values[0])
 		if err != nil {
