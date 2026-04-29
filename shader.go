@@ -1,4 +1,4 @@
-package shader
+package main
 
 import (
 	"log"
