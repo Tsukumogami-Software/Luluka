@@ -49,8 +49,8 @@ func (g *Game) Layout(outsideWidth, outsideHeight int) (int, int) {
 	return screenWidth, screenHeight
 }
 
-func main() {
-	shaderFile, err := os.ReadFile("shader.kage")
+func Run(shaderPath string) {
+	shaderFile, err := os.ReadFile(shaderPath)
 	if err != nil {
 		log.Panicf("Failed to read shader file: %v", err)
 	}
