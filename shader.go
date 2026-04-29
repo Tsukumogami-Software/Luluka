@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Tsukumogami-Software/Luluka/shader"
+	"github.com/Tsukumogami-Software/luluka/shader"
 	"github.com/hajimehoshi/ebiten/v2"
 )
 

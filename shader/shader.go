@@ -25,7 +25,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Tsukumogami-Software/Luluka/shaderir"
+	"github.com/Tsukumogami-Software/luluka/shaderir"
 )
 
 type variable struct {

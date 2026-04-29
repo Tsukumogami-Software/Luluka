@@ -17,7 +17,7 @@
 package pssl
 
 import (
-	"github.com/Tsukumogami-Software/Luluka/shaderir"
+	"github.com/Tsukumogami-Software/luluka/shaderir"
 )
 
 func Compile(p *shaderir.Program) (vertexShader, pixelShader string) {

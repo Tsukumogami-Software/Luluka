@@ -21,7 +21,7 @@ import (
 	"go/token"
 	"strings"
 
-	"github.com/Tsukumogami-Software/Luluka/shaderir"
+	"github.com/Tsukumogami-Software/luluka/shaderir"
 )
 
 func (cs *compileState) forceToInt(node ast.Node, expr *shaderir.Expr) bool {

@@ -17,7 +17,7 @@ package glsl
 import (
 	"fmt"
 
-	"github.com/Tsukumogami-Software/Luluka/shaderir"
+	"github.com/Tsukumogami-Software/luluka/shaderir"
 )
 
 func opString(op shaderir.Op) string {

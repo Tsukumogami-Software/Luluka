@@ -1,4 +1,4 @@
-module github.com/Tsukumogami-Software/Luluka
+module github.com/Tsukumogami-Software/luluka
 
 go 1.26.1
 
